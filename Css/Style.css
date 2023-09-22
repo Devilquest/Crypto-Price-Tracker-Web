@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+html, body {
+	height: 100%;
+  	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: white;
+	background-image: url("../Images/Pattern.jpg");
+}
+
+.wrap{
+	min-height: 100%;
+}
+
+.container{
+	overflow:auto;
+	padding-bottom:80px; /* this needs to be bigger than footer height*/
+}
+
+.container h1{
+	color: orange;
+}
+
+.container .notWhite{
+	color: #B8B8B8;
+}
+
+footer{
+	position: relative;
+	margin-top: -80px; /* negative value of footer height */
+	padding-top: 20px;
+	height: 80px;
+	clear:both;
+}
+
+footer a{
+	color: #00E143;
+}
