@@ -1,10 +1,10 @@
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-CONFIGURATION_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-var tradingPair = "BTCUSDT"; //Trading Pair to check the price. (Only Binance trading pairs)
-var buyPrice = 35245.24; //Price the asset was purchased.
+var tradingPair = "BTCUSDT"; //The trading pair to check the price. (Only Binance trading pairs)
+var buyPrice = 35245.24; //Price at which the asset was purchased
 var buyQuantity = 0.125; //Quantity purchased.
-var currencySymbol = "$"; //Currency Symbol.
+var currencySymbol = "$"; //Currency symbol to display.
 var updateInterval = 10; //Price update interval. In seconds. (Minimum 5)
-var decimalPlaces = 2; //Decimal places to display. Usually 2 for traditional currencies and 8 for cryptocurrencies.
+var decimalPlaces = 2; //Number of decimal places to display. Typically 2 for traditional currencies and 8 for cryptocurrencies.
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 
 $(document).ready(function(){
